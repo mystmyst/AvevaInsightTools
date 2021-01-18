@@ -1,0 +1,95 @@
+{
+    "metadata": [
+      {
+        "TagName": "Reactor3.Level",
+        "Description": "Level in reactor on line 3",
+        "DataType": "float",
+        "EngUnit": "Liters",
+        "Min": 0,
+        "Max": 100,
+        "MessageOff": "",
+        "MessageOn": "",
+        "RolloverValue": 0,
+        "InterpolationType": "linear",
+        "Alias": ""
+      },
+      {
+        "TagName": "Reactor3.Level.SP",
+        "Description": "Setpoint for level in reactor on line 3",
+        "DataType": "float",
+        "EngUnit": "Liters",
+        "Min": 0,
+        "Max": 100,
+        "MessageOff": "",
+        "MessageOn": "",
+        "RolloverValue": 0,
+        "InterpolationType": "stairstep",
+        "Alias": ""
+      },
+      {
+        "TagName": "Reactor3.Temp",
+        "Description": "Temperature measured at the top of the reactor on line 3",
+        "DataType": "float",
+        "EngUnit": "DegC",
+        "Min": 10,
+        "Max": 105,
+        "MessageOff": "",
+        "MessageOn": "",
+        "RolloverValue": 0,
+        "InterpolationType": "linear",
+        "Alias": ""
+      },
+      {
+        "TagName": "Reactor3.InletValve",
+        "Description": "Position of inlet valve on Reactor 3",
+        "DataType": "int1",
+        "EngUnit": "",
+        "Min": 0,
+        "Max": 1,
+        "MessageOff": "Closed",
+        "MessageOn": "Open",
+        "RolloverValue": 0,
+        "InterpolationType": "none",
+        "Alias": ""
+      },
+      {
+        "TagName": "Reactor3.Step",
+        "Description": "Recipe step in Reactor 3",
+        "DataType": "int2",
+        "EngUnit": "Step",
+        "Min": -2,
+        "Max": 10,
+        "MessageOff": "",
+        "MessageOn": "",
+        "RolloverValue": 0,
+        "InterpolationType": "stairstep",
+        "Alias": ""
+      },
+      {
+        "TagName": "Line3.Units",
+        "Description": "Accumulated units produced counter",
+        "DataType": "uint2",
+        "EngUnit": "Units",
+        "Min": 0,
+        "Max": 65535,
+        "MessageOff": "",
+        "MessageOn": "",
+        "RolloverValue": 65536,
+        "InterpolationType": "stairstep",
+        "Alias": "Accumulated Units"
+      },
+      {
+        "TagName": "Line3.Product",
+        "Description": "Product code for packaging line 3",
+        "DataType": "string",
+        "EngUnit": "",
+        "Min": 0,
+        "Max": 0,
+        "MessageOff": "",
+        "MessageOn": "",
+        "RolloverValue": 0,
+        "InterpolationType": "none",
+        "Alias": "Product Code"
+      }
+    ]
+  }
