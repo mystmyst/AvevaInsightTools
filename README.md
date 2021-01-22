@@ -20,4 +20,5 @@ Some tools to Aveva Insigth in Python
     mountjson = MountJson("data")
     mountjson.putTagNow("test",5465464)
     mountjson.putTagNow("test2",123321)
+    mountjson.putTag("tagTest",321)
     mountjson.save_file()
