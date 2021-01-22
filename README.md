@@ -13,7 +13,7 @@ Some tools to Aveva Insigth in Python
     print (str(postMetadata.sendJson()))
 
 002 - Mount Json
-  mount a file (.json) with tags and values
+  mount a file (data.json or metadata.json) with tags and values
   
     from modules.mountJson import MountJson
     mountjson = MountJson("data")
